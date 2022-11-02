@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: development
-  owner: dekt-dev-team2
+  owner: hope-dev
   system: devx-mood
   definition:
-   $text: https://github.com/dektlong/mood-sensors/blob/dev/backstage/apis/mood-sensors-api-definition.yaml
+   $text: https://github.com/Tembhum/mood-sensors/blob/dev/backstage/apis/mood-sensors-api-definition.yaml

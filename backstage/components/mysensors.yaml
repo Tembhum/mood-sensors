@@ -11,7 +11,7 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: dekt-dev-team2
+  owner: hope-dev
   dependsOn: 
     - resource:reading
   providesApis:
