@@ -58,5 +58,12 @@ public class DemoController {
                 _webProperties.getPressureHeader(), _webProperties.getBannerTextColor(), _webProperties.getBannerText());
         return result;
     }
+
+    @RequestMapping("/test")
+    public @ResponseBody SensorData test() {
+        SensorData result = new SensorData( _sensorRepository.findAll(), _webProperties.getTempHeader(),
+                _webProperties.getPressureHeader(), _webProperties.getBannerTextColor(), _webProperties.getBannerText());
+        return result;
+    }
 }
 
