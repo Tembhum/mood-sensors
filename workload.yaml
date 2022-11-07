@@ -6,6 +6,8 @@ metadata:
     apps.tanzu.vmware.com/workload-type: web
     apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: mysensors
+    use-snyk: "true"
+  
 spec:
   #source code
   source:
